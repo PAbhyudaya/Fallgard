@@ -528,7 +528,7 @@
     
     .about-text {
         padding: var(--spacing-4);
-        text-align: center;
+        /* text-align: center; */
     }
     
     .about-title h2 {
@@ -539,6 +539,9 @@
     .about-title h4 {
         font-size: 1.1rem;
         margin-bottom: var(--spacing-3);
+    }
+    .about-title p {
+        text-align: left;
     }
     
     .about-content {
@@ -573,7 +576,7 @@
     
     .bvst-section {
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
         gap: var(--spacing-4);
     }
     
@@ -1741,7 +1744,6 @@
         display: flex !important;
         flex-direction: column !important;
         gap: var(--spacing-3) !important;
-        align-items: center !important;
         text-align: center !important;
     }
     
@@ -1818,7 +1820,7 @@
     .veena-section {
         display: flex !important;
         flex-direction: column !important;
-        align-items: center !important;
+        /* align-items: center !important; */
         gap: var(--spacing-3) !important;
         text-align: center !important;
     }
@@ -1870,7 +1872,7 @@
     
     .about-section {
         flex-direction: row !important;
-        align-items: flex-start !important;
+        /* align-items: flex-start !important; */
         text-align: left !important;
         gap: var(--spacing-4) !important;
     }
@@ -1913,8 +1915,8 @@
     
     .veena-section {
         flex-direction: column !important;
-        align-items: center !important;
-        text-align: center !important;
+        /* align-items: center !important; */
+        /* text-align: center !important; */
     }
     
     .veena-img {
@@ -1966,7 +1968,7 @@
     
     .veena-section {
         flex-direction: row !important;
-        align-items: flex-start !important;
+        /* align-items: flex-start !important; */
         text-align: left !important;
     }
     
